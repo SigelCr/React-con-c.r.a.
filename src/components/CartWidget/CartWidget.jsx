@@ -8,7 +8,7 @@ import estilos from "./CartWidget.module.css";
 const StyledBadge = styled(Badge)(({ theme }) => ({
   "& .MuiBadge-badge": {
     right: 8,
-    top: 13,
+    top: 30,
     border: `2px solid ${theme.palette.background.paper}`,
     padding: "0 4px",
     fontSize: 10,
@@ -20,7 +20,7 @@ const StyledBadge = styled(Badge)(({ theme }) => ({
 function CartWidget() {
   return (
     <IconButton aria-label="cart">
-      <StyledBadge badgeContent={1} color="secondary">
+      <StyledBadge badgeContent={99} color="secondary">
         <ShoppingCartIcon className={estilos.iconoCarrito} />
       </StyledBadge>
     </IconButton>

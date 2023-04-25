@@ -1,7 +1,12 @@
-const ItemList = ({ saludo }) => {
+import ItemCard from "./ItemCard";
+import estilos from "./ItemList.module.css";
+
+const ItemList = ({ items }) => {
   return (
-    <div>
-      <h2>{saludo}</h2>
+    <div className={estilos.flex}>
+      {items.map((item) => {
+        return <ItemCard item={item} key={item.id} />;
+      })}
     </div>
   );
 };

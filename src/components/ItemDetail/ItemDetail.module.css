@@ -1,0 +1,55 @@
+.contenedor {
+  text-align: center;
+  opacity: 0.9;
+  background-color: rgb(255, 255, 255);
+}
+
+.imgCard {
+  width: 40%;
+  min-width: 250px;
+  max-height: 280px;
+  margin: 20px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.imgCardPlaystation {
+  width: 40%;
+  min-width: 250px;
+  max-height: 280px;
+  margin: 20px;
+  border: 5px solid rgb(0, 0, 0);
+  background-color: white;
+  border-radius: 5px;
+  object-fit: contain;
+  border: 5px solid red;
+}
+
+.titulos {
+  font-size: 20px;
+  font-family: "Press Start 2P", cursive;
+  margin: 5px;
+  padding: 5px;
+}
+.precio {
+  font-weight: bold;
+  margin: 10px;
+}
+.descripcion {
+  font-size: 15px;
+  width: 85%;
+  margin: auto;
+}
+.boton {
+  font-family: "Press Start 2P", cursive;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 5px;
+  color: rgb(0, 0, 0);
+}
+
+.boton:hover {
+  color: rgba(0, 0, 0, 0.756);
+}
