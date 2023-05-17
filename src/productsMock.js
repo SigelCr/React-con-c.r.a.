@@ -1,9 +1,8 @@
 export let products = [
   {
-    id: 1,
     title: "1942",
     price: 35000,
-    stock: 1,
+    stock: 2,
     description:
       "Experimenta la emoción de la Segunda Guerra Mundial en 1942, un juego de disparos aéreos desafiante y emocionante.",
     fullDescription:
@@ -12,10 +11,9 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-1942_fvjqro.jpg",
   },
   {
-    id: 2,
     title: "Road Fighter",
     price: 30000,
-    stock: 1,
+    stock: 3,
     description:
       "Road Fighter de NES. Evita obstáculos, lucha contra jefes de nivel y llega primero en cada etapa. ¡Un clásico imprescindible!",
     fullDescription:
@@ -24,10 +22,9 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-roadfighter_vtqs9a.jpg",
   },
   {
-    id: 3,
     title: "Highway Star",
     price: 30000,
-    stock: 1,
+    stock: 3,
     description:
       "Desafía la velocidad en Highway Star, el clásico juego de carreras retro de NES. ¡Acelera y gana la carrera!",
     fullDescription:
@@ -36,7 +33,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916937/cartucho-highstart_fdi2hd.jpg",
   },
   {
-    id: 4,
     title: "Double Dragon III",
     price: 45000,
     stock: 5,
@@ -48,7 +44,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680916938/cartucho-dd3_znzkup.jpg",
   },
   {
-    id: 5,
     title: "Jurassic Park",
     price: 40000,
     stock: 2,
@@ -60,7 +55,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908695/cartucho-jurassicpark_exvtwo.jpg",
   },
   {
-    id: 6,
     title: "Comic Zone",
     price: 30000,
     stock: 5,
@@ -72,8 +66,7 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908695/cartucho-comiczone_jzj4nw.jpg",
   },
   {
-    id: 7,
-    title: "Road Rash 2",
+    title: "Road Rash II",
     price: 35000,
     stock: 5,
     description:
@@ -84,7 +77,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908691/cartucho-roadrash_kknywu.jpg",
   },
   {
-    id: 8,
     title: "Outrun",
     price: 30000,
     stock: 5,
@@ -96,7 +88,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1680908689/cartucho-outrun_rtmald.jpg",
   },
   {
-    id: 9,
     title: "Mortal Kombat trilogy",
     price: 30000,
     stock: 5,
@@ -108,7 +99,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1682358724/mktrilogy_oy9ary.jpg",
   },
   {
-    id: 10,
     title: "Bloody roar",
     price: 30000,
     stock: 5,
@@ -120,7 +110,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1682359153/bloodyroar_wnubfq.webp",
   },
   {
-    id: 11,
     title: "Tekken 3",
     price: 30000,
     stock: 5,
@@ -132,7 +121,6 @@ export let products = [
     img: "https://res.cloudinary.com/difrhbjlk/image/upload/v1682368391/tekken3_kppr8w.jpg",
   },
   {
-    id: 12,
     title: "Silent Hill",
     price: 30000,
     stock: 5,
