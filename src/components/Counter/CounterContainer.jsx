@@ -14,7 +14,7 @@ const CounterContainer = ({ stock, onAdd, initial = 1 }) => {
       setContador(contador + 1);
     } else {
       Swal.fire({
-        position: "top",
+        position: "center",
         title: `Stock Máximo`,
         timer: 2200,
         toast: true,
